@@ -22,7 +22,6 @@ from django.conf.urls.static import static
 
 from core import views
 
-app_name= 'core'
 
 urlpatterns = [
     path('admin/', admin.site.urls),
